@@ -11,6 +11,7 @@ function overrideSecurity(): void
     $system_config = [
         'OVERRIDE_TARGET' => false,
         'firewall' => 'DISARMED',
+        'vault_door' => 'UNLOCKED'
     ];
     // ==========================================
 
